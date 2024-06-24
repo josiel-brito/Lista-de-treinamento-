@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #00FA9A;
+}
+
+#input-container, #training-container, #update-field-container {
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#input-container label, #input-container, #input-container  {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+#training-container h2, #training-container h3 {
+    margin: 10px 0;
+}
+
+#training-container table {
+    margin: 20px 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#training-container th, #training-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#training-container th {
+    background-color: #f2f2f2;
+}
+
+#training-container .white {
+    background-color: white;
+}
+
+#training-container .yellow {
+    background-color: yellow;
+}
+
+#training-container .red {
+    background-color: red;
+}
+
+.primary-button, .secondary-button, .icon-button {
+    border: white;
+    border-radius: 30px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 18px;
+    outline: none;
+    height: 35px;
+    width: 50%;
+    font-size: 18px
+  
+}
+
+.icon-button {
+    background-color: transparent;
+    padding: 0;
+}
+
+#training-filter {
+    margin-top: 10px;
+    padding: 5px;
+    width: calc(100% - 40px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#update-field-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#update-field-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#training-number{
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    border: white;
+    background: none;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 18px;
+    outline: none;
+    height: 35px;
+    font-size: 18px;
+}
+
+.title{
+  color: white;
+  font-size: 40px;
+  
+}
+
+#people{
+  font-size: 250px;
+  color: white;
+}
+
